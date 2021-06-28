@@ -4,9 +4,27 @@
 }
 
 .header {
+  padding: 1rem 2rem;
   background: #3b5998;
   /* 가로정렬 */
   display: flex;
   /* 태그 양 끝에 위치  */
   justify-content: space-between;
+  /* 정 가운데 위치 */
+  align-items: center;
+}
+
+.header h1 {
+  color: #fff;
+}
+
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius: 3px;
+  border: none;
+}
+
+section {
+  padding: 1rem;
 }
